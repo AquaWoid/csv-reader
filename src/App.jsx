@@ -1,8 +1,8 @@
 import { useState, useRef } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 
-import CsvTable from './CsvTable'
+import gitHubLogo from "/github-mark.png"
+
+import CsvTable from './components/CsvTable'
 
 import DataTable from 'datatables.net-bs5';
 import DataTablesLib from 'datatables.net-bs5';
@@ -63,21 +63,18 @@ function App() {
     <h1 className="font-bold text-center">CSV Viewer</h1>
     <p className="uploadText text-center pb-2">File: {fileName}</p>
 
-
-      <div className='flex flex-column pt-5 pb-5'>
+      <div className='flex-column'>
       <button className='pt-12' onClick={onClick}>Upload CSV</button>
+      <input className='d-none' type="file" ref={inputCsv} onChange={fileChange} accept='.csv'></input>
       </div>
       
-      <input className='d-none' type="file" ref={inputCsv} onChange={fileChange} accept='.csv'></input>
-
       <div className='border-1 overflow-auto'>
       <CsvTable data={data}></CsvTable>
       </div>
 
-
-
     <footer>
-      <p>Csv viewer to</p>
+      <p>Minimalistic CSV viewer created by Lukas Waldhofer for the course "web development" at the institute for digital humanities</p>
+      <a href='https://github.com/AquaWoid/csv-reader/tree/main'>Source Code available on GitHub <img src={gitHubLogo} className='img'/></a>
     </footer>
     </>
   )

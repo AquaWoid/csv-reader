@@ -20,4 +20,21 @@
   padding: 2em;
 }
 
+.img {
+  max-width: 5%;
+}
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+a:hover {
+  text-decoration: none;
+  color:black;
+}
+
+a:visited {
+  color:black;
+}
 

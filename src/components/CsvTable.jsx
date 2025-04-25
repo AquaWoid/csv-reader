@@ -1,11 +1,10 @@
-// CsvTable.jsx
 import { useEffect, useRef } from 'react';
 import $ from 'jquery';
-
 import 'datatables.net';
 
 
 const CsvTable = ({ data }) => {
+  
   const tableRef = useRef();
 
   useEffect(() => {
@@ -19,6 +18,7 @@ const CsvTable = ({ data }) => {
     // Clear and rebuild table manually
     $(tableRef.current).empty();
 
+    // Data mapping
     const columns = Object.keys(data[0] || {}).map((key) => ({
       title: key,
       data: key
