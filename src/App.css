@@ -1,0 +1,23 @@
+@import url('datatables.net-bs5');
+@import url('datatables.net-responsive-bs5');
+
+
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+}
+
+.uploadText {
+  padding-top: 10px;
+}
+
+
+.card {
+  padding: 2em;
+}
+
+
