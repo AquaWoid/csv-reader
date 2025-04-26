@@ -60,8 +60,7 @@ function App() {
 
     <div className='uploadContainer flex-column'>
       <button className='pt-12' onClick={onClick}>Upload CSV</button>
-      <input className='d-none' type="file" ref={inputCsv} onChange={fileChange} accept='.csv'></input>
-      <label className='d-none'>Upload Button</label>
+      <input className='d-none' type="file" ref={inputCsv} onChange={fileChange} accept='.csv' title='non visible file input form'></input>
     </div>
       
     <div className='border-1 overflow-auto'>
