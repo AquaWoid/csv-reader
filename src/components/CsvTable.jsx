@@ -33,8 +33,6 @@ const CsvTable = ({ data }) => {
 
   }, [data]);
 
-  
-
   return <table ref={tableRef} className="table table-striped table-hover table-bordered" style={{ width: '100%' }} />;
 };
 

@@ -1,8 +1,6 @@
 @import url('datatables.net-bs5');
 @import url('datatables.net-responsive-bs5');
 
-
-
 #root {
   max-width: 100%;
   margin: 0 auto;
@@ -21,6 +19,8 @@
 }
 
 .img {
+  height: 40px;
+  width: 40px;
   max-width: 5%;
 }
 
