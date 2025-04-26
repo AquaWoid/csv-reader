@@ -1,4 +1,4 @@
-# Simple CSV Reader
+# Minimalistic CSV Viewer
 
 This project is a simple React web application to display, filter and order csv tables
 
