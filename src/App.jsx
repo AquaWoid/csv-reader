@@ -58,14 +58,14 @@ function App() {
       <p className="uploadText text-center pb-2">File: {fileName}</p>     
     </header>
 
-    <div className='uploadContainer flex-column'>
-      <button className='pt-12' onClick={onClick}>Upload CSV</button>
-      <input className='d-none' type="file" ref={inputCsv} onChange={fileChange} accept='.csv' title='non visible file input form'></input>
-    </div>
+    <section className="uploadContainer">
+      <button className="pt-12" onClick={onClick}>Upload CSV</button>
+      <input className="d-none" type="file" ref={inputCsv} onChange={fileChange} accept='.csv' title='non visible file input form'></input>
+    </section>
       
-    <div className='border-1 overflow-auto'>
+    <section className='tableContainer'>
       <CsvTable data={data}></CsvTable>
-    </div>
+    </section>
 
     <footer>
       <p>Minimalistic CSV Viewer created by Lukas Waldhofer for the course "Web-Development" at the institute of Digital Humanities in Graz, Austria.</p>
