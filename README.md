@@ -11,3 +11,4 @@ Dependencies:
 
 When cloning just use "npm install" to install all dependencies. 
 
+The Datasets that were used as reference for developing the application are found under the "public" directory inside the repo.
