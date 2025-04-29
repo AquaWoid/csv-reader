@@ -11,7 +11,7 @@ Dependencies:
 
 When cloning just use "npm install" to install all dependencies. 
 
-The Datasets that were used as reference for developing the application are found under the "public" directory inside the repo. The Pantheon Project is provided under the CC-BY-SA 4.0 License. The Shifting Seas Dataset is provided under the Apache 2.0 License. Both of these are open source licensed which allow redistribution.
+The Datasets that were used as reference for developing the application are found under the "public" directory inside the repo. The Pantheon Project is provided under the CC-BY-SA 4.0 License. The Shifting Seas Dataset is provided under the Apache 2.0 License. Both of these are open source licenses which allow redistribution.
 
 Datasets used for prototyping:
 Pantheon Project: Historical Popularity Index: https://www.kaggle.com/datasets/mit/pantheon-project \
